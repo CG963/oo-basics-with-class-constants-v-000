@@ -6,7 +6,7 @@ BRANDS = []
 
   def initialize(brand)
     @brand = brand
-    if !(BRANDS)
+    if !(BRANDS.include)
   end
 
   def cobble
